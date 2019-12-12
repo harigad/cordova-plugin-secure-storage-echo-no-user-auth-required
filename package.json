@@ -1,0 +1,58 @@
+{
+  "name": "cordova-plugin-secure-storage-echo-no-user-auth-required-no-user-auth-required-no-user-auth-required-no-user-auth-required-no-user-auth-required",
+  "version": "5.0.1",
+  "description": "Secure storage plugin for iOS & Android",
+  "author": "Yiorgis Gozadinos <ggozad@crypho.com>",
+  "contributors": [
+    {
+      "name": "Demetris Manikas",
+      "email": "demetris.manikas@gmail.com"
+    },
+    {
+      "name": "Sergey Grebnov",
+      "email": "sergei.grebnov@gmail.com"
+    },
+    {
+      "name": "Ajay Ambre",
+      "email": "ajayambre88@gmail.com"
+    },
+    {
+      "name": "Maurys Brito",
+      "email": "mibrito@mibrito.com"
+    }
+  ],
+  "cordova": {
+    "id": "cordova-plugin-secure-storage-echo-no-user-auth-required",
+    "platforms": ["android", "ios", "wp8", "windows"]
+  },
+  "keywords": [
+    "cordova",
+    "security",
+    "encryption",
+    "storage",
+    "secure",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "cordova-wp8",
+    "cordova-windows",
+    "cordova-browser"
+  ],
+  "main": "www/securestorage.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harigad/cordova-plugin-secure-storage-echo-no-user-auth-required.git"
+  },
+  "scripts": {
+    "eslint": "./node_modules/.bin/eslint www/securestorage.js tests/tests.js"
+  },
+  "devDependencies": {
+    "cordova-plugin-test-framework": ">=1.0.0",
+    "eslint": ""
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/harigad/cordova-plugin-secure-storage-echo-no-user-auth-required/issues"
+  },
+  "homepage": "https://github.com/harigad/cordova-plugin-secure-storage-echo-no-user-auth-required#readme"
+}
